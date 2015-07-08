@@ -1,0 +1,423 @@
+Starting hello_app as hello
+[2015-07-08 19:42:50 +0000] [17626] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fd9cfca28c0>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fd9cfca25f0>
+  pre_fork: <function pre_fork at 0x7fd9cfca2758>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 999
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: hello_app
+  sendfile: True
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fd9cfca2488>
+  pre_exec: <function pre_exec at 0x7fd9cfca2e60>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7fd9cfca2a28>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7fd9cfca8578>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fd9cfca8050>
+  post_request: <function post_request at 0x7fd9cfca8140>
+  user: 999
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fd9cfca2b90>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7fd9cfca82a8>
+  chdir: /webapps/hello_django/hello
+  paste: None
+  default_proc_name: hello.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7fd9cfca2320>
+  worker_abort: <function worker_abort at 0x7fd9cfca2cf8>
+  bind: ['unix:/webapps/hello_django/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fd9cfca8410>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2015-07-08 19:42:50 +0000] [17626] [INFO] Starting gunicorn 19.3.0
+[2015-07-08 19:42:50 +0000] [17626] [DEBUG] Arbiter booted
+[2015-07-08 19:42:50 +0000] [17626] [INFO] Listening at: unix:/webapps/hello_django/run/gunicorn.sock (17626)
+[2015-07-08 19:42:50 +0000] [17626] [INFO] Using worker: sync
+[2015-07-08 19:42:50 +0000] [17638] [INFO] Booting worker with pid: 17638
+[2015-07-08 19:42:50 +0000] [17639] [INFO] Booting worker with pid: 17639
+[2015-07-08 19:42:50 +0000] [17640] [INFO] Booting worker with pid: 17640
+[2015-07-08 19:42:50 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:42:51 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:42:52 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:42:53 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:42:54 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:42:55 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:42:56 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:42:57 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:42:58 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:42:59 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:00 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:01 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:02 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:03 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:04 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:05 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:06 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:07 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:08 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:09 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:10 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:11 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:12 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:13 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:14 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:15 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:16 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:17 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:18 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:19 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:20 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:21 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:22 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:23 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:24 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:25 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:26 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:27 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:28 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:29 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:30 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:31 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:32 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:33 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:34 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:35 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:36 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:37 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:38 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:39 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:40 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:41 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:42 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:43 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:44 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:45 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:46 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:47 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:48 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:49 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:50 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:51 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:52 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:53 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:54 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:55 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:56 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:57 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:58 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:43:59 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:44:00 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:44:01 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:44:02 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:44:03 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:44:04 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:44:05 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:44:06 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:44:07 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:44:08 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:44:09 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:44:10 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:44:11 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:44:12 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:44:13 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:44:14 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:44:15 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:44:16 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:44:17 +0000] [17626] [DEBUG] 3 workers
+[2015-07-08 19:44:17 +0000] [17626] [INFO] Handling signal: term
+[2015-07-08 14:14:17 +0000] [17640] [INFO] Worker exiting (pid: 17640)
+[2015-07-08 14:14:17 +0000] [17638] [INFO] Worker exiting (pid: 17638)
+[2015-07-08 14:14:17 +0000] [17639] [INFO] Worker exiting (pid: 17639)
+[2015-07-08 19:44:17 +0000] [17626] [INFO] Shutting down: Master
+Starting hello_app as hello
+[2015-07-08 19:44:26 +0000] [17686] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f6f52a4c8c0>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f6f52a4c5f0>
+  pre_fork: <function pre_fork at 0x7f6f52a4c758>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 999
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: hello_app
+  sendfile: True
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f6f52a4c488>
+  pre_exec: <function pre_exec at 0x7f6f52a4ce60>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f6f52a4ca28>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f6f52a52578>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f6f52a52050>
+  post_request: <function post_request at 0x7f6f52a52140>
+  user: 999
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f6f52a4cb90>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f6f52a522a8>
+  chdir: /webapps/hello_django/hello
+  paste: None
+  default_proc_name: hello.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f6f52a4c320>
+  worker_abort: <function worker_abort at 0x7f6f52a4ccf8>
+  bind: ['unix:/webapps/hello_django/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f6f52a52410>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2015-07-08 19:44:26 +0000] [17686] [INFO] Starting gunicorn 19.3.0
+[2015-07-08 19:44:26 +0000] [17686] [DEBUG] Arbiter booted
+[2015-07-08 19:44:26 +0000] [17686] [INFO] Listening at: unix:/webapps/hello_django/run/gunicorn.sock (17686)
+[2015-07-08 19:44:26 +0000] [17686] [INFO] Using worker: sync
+[2015-07-08 19:44:26 +0000] [17697] [INFO] Booting worker with pid: 17697
+[2015-07-08 19:44:26 +0000] [17698] [INFO] Booting worker with pid: 17698
+[2015-07-08 19:44:27 +0000] [17699] [INFO] Booting worker with pid: 17699
+[2015-07-08 19:44:27 +0000] [17686] [DEBUG] 3 workers
+[2015-07-08 19:44:28 +0000] [17686] [DEBUG] 3 workers
+[2015-07-08 19:44:29 +0000] [17686] [DEBUG] 3 workers
+[2015-07-08 19:44:30 +0000] [17686] [DEBUG] 3 workers
+[2015-07-08 19:44:31 +0000] [17686] [DEBUG] 3 workers
+[2015-07-08 19:44:32 +0000] [17686] [DEBUG] 3 workers
+[2015-07-08 19:44:33 +0000] [17686] [DEBUG] 3 workers
+[2015-07-08 19:44:34 +0000] [17686] [DEBUG] 3 workers
+[2015-07-08 19:44:35 +0000] [17686] [DEBUG] 3 workers
+[2015-07-08 19:44:36 +0000] [17686] [DEBUG] 3 workers
+[2015-07-08 19:44:37 +0000] [17686] [DEBUG] 3 workers
+[2015-07-08 19:44:38 +0000] [17686] [DEBUG] 3 workers
+[2015-07-08 19:44:39 +0000] [17686] [DEBUG] 3 workers
+[2015-07-08 19:44:39 +0000] [17686] [DEBUG] 3 workers
+[2015-07-08 19:44:39 +0000] [17686] [INFO] Handling signal: term
+[2015-07-08 14:14:39 +0000] [17698] [INFO] Worker exiting (pid: 17698)
+[2015-07-08 14:14:39 +0000] [17697] [INFO] Worker exiting (pid: 17697)
+[2015-07-08 14:14:39 +0000] [17699] [INFO] Worker exiting (pid: 17699)
+[2015-07-08 19:44:39 +0000] [17686] [INFO] Shutting down: Master
+Starting hello_app as hello
+[2015-07-08 19:44:40 +0000] [17707] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7ffa3b97a8c0>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7ffa3b97a5f0>
+  pre_fork: <function pre_fork at 0x7ffa3b97a758>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 999
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: hello_app
+  sendfile: True
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7ffa3b97a488>
+  pre_exec: <function pre_exec at 0x7ffa3b97ae60>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7ffa3b97aa28>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7ffa3b980578>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7ffa3b980050>
+  post_request: <function post_request at 0x7ffa3b980140>
+  user: 999
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7ffa3b97ab90>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7ffa3b9802a8>
+  chdir: /webapps/hello_django/hello
+  paste: None
+  default_proc_name: hello.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7ffa3b97a320>
+  worker_abort: <function worker_abort at 0x7ffa3b97acf8>
+  bind: ['unix:/webapps/hello_django/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7ffa3b980410>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2015-07-08 19:44:40 +0000] [17707] [INFO] Starting gunicorn 19.3.0
+[2015-07-08 19:44:40 +0000] [17707] [DEBUG] Arbiter booted
+[2015-07-08 19:44:40 +0000] [17707] [INFO] Listening at: unix:/webapps/hello_django/run/gunicorn.sock (17707)
+[2015-07-08 19:44:40 +0000] [17707] [INFO] Using worker: sync
+[2015-07-08 19:44:40 +0000] [17718] [INFO] Booting worker with pid: 17718
+[2015-07-08 19:44:40 +0000] [17719] [INFO] Booting worker with pid: 17719
+[2015-07-08 19:44:40 +0000] [17720] [INFO] Booting worker with pid: 17720
+[2015-07-08 19:44:40 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:44:41 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:44:42 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:44:43 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:44:44 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:44:45 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:44:46 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:44:47 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:44:48 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:44:49 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:44:50 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:44:51 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:44:52 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:44:53 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:44:54 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:44:55 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:44:56 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:44:57 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:44:58 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:44:59 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:00 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:01 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:02 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:03 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:04 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:05 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:06 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:07 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:08 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:09 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:10 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:11 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:12 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:13 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:14 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:15 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:16 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:17 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:18 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:19 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:20 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:21 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:22 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:23 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:24 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:25 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:26 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:27 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:28 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:29 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:30 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:31 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:32 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:33 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:34 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:35 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:36 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:37 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:38 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:39 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:40 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:41 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:42 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:43 +0000] [17707] [DEBUG] 3 workers
+[2015-07-08 19:45:44 +0000] [17707] [DEBUG] 3 workers
