@@ -63,7 +63,7 @@ django-simple-captcha==0.4.5
 django-simple-elasticsearch==0.9.16
 django-social-auth==0.7.28
 django-tastypie==0.12.1
-djangorestframework==3.1.3
+djangorestframework==3.11.2
 dnspython==1.11.1
 duplicity==0.6.23
 easy-thumbnails==2.2
